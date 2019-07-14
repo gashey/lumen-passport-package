@@ -6,7 +6,7 @@ A simple service provider that makes Laravel Passport work with Lumen as a resou
 
 ## Dependencies
 
-* PHP >= 5.6.3
+* PHP >= 7.1.3
 * Lumen >= 5.3
 
 ## Installation via Composer
