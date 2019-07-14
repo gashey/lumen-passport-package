@@ -1,6 +1,6 @@
-# Lumen-Passport as a OAuth Client Grant Resource Server to protect routes and check scopes via Passport middleware
+# Lumen-Passport as an oauth client grant Resource Server
 
-Making Laravel Passport work with Lumen as a Client Grant Resource Server
+Making Laravel Passport work with Lumen as a Client Grant Resource Server. This makes it easy to protect routes and check scopes via Passport middleware. This package requires "dusterio/lumen-passport" created by Denis Mysenko.
 
 A simple service provider that makes Laravel Passport work with Lumen as a resource server
 
