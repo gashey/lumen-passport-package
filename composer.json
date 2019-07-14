@@ -3,7 +3,7 @@
     "type": "library",
     "description": "A lumen passport client grant resource server package",
     "keywords": ["php", "lumen", "laravel passport"],
-    "homepage": "https://github.com/gashey/lumen-passport-package.git",
+    "homepage": "https://github.com/gashey/lumen-passport-resource",
     "license": "MIT",
     "authors": [{
         "name": "George Kofi Hagan",
