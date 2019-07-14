@@ -60,9 +60,6 @@ $app->register(Gashey\LumenPassport\PassportServiceProvider::class);
 ```bash
 # Create new tables for Gashey Passport 
 php artisan migrate
-
-# Install encryption keys and other necessary stuff for Passport
-php artisan passport:install
 ```
 
 ### Resource Server Public Key
