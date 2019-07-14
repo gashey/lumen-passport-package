@@ -61,7 +61,7 @@ $app->routeMiddleware([
 // Finally register two service providers - original one and Lumen adapter
 $app->register(Laravel\Passport\PassportServiceProvider::class);
 $app->register(Dusterio\LumenPassport\PassportServiceProvider::class);
-$app->register(Gashey\LumenPassport\PassportServiceProvider::class);
+$app->register(Gashey\LumenPassportResource\PassportServiceProvider::class);
 ```
 
 ### Run Migrations for Gashey Passport
