@@ -1,0 +1,16 @@
+{
+    "name": "gashey/lumen-passport-resource",
+    "description": "A lumen passport package",
+    "authors": [{
+        "name": "George Kofi Hagan",
+        "email": "georgekhagan@gmail.com"
+    }],
+    "require": {
+        "dusterio/lumen-passport": "^0.2.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gashey\\LumenPassport\\": "src/"
+        }
+    }
+}
