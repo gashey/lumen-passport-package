@@ -17,15 +17,39 @@ class PassportServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadMigrationsFrom(__DIR__ . '/Database/migrations');
+        if ($this->app->runningInConsole()) {
+            $this->registerMigrations();
+        }
+    }
 
+    /**
+     * Register the service provider.
+     *
+     * @return void
+     */
+    public function register()
+    {
         $this->registerBindings();
         $this->registerGuard();
     }
 
-    public function register()
-    { }
+    /**
+     * Register Gashey Lumen Passport's migration files.
+     *
+     * @return void
+     */
+    protected function registerMigrations()
+    {
+        if (Passport::$runsMigrations) {
+            return $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
+        }
+    }
 
+    /**
+     * Register the token repository binding.
+     *
+     * @return void
+     */
     public function registerBindings()
     {
         $this->app->bind(\Laravel\Passport\TokenRepository::class, function ($app) {
@@ -33,6 +57,11 @@ class PassportServiceProvider extends ServiceProvider
         });
     }
 
+    /**
+     * Register the token guard.
+     *
+     * @return void
+     */
     public function registerGuard()
     {
         Auth::extend('passport', function ($app, $name, array $config) {
@@ -42,6 +71,12 @@ class PassportServiceProvider extends ServiceProvider
         });
     }
 
+    /**
+     * Make an instance of the token guard.
+     *
+     * @param  array  $config
+     * @return \Illuminate\Auth\RequestGuard
+     */
     protected function makeGuard(array $config)
     {
         return new RequestGuard(function ($request) use ($config) {
