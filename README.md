@@ -53,12 +53,11 @@ $app->withEloquent();
 
 // Enable the client middleware and scopes middleware (shipped with Passport)
 $app->routeMiddleware([
-    'auth' => App\Http\Middleware\Authenticate::class,
     'client' => \Laravel\Passport\Http\Middleware\CheckClientCredentials::class,
     'scopes' => \Laravel\Passport\Http\Middleware\CheckScopes::class,
 ]);
 
-// Finally register two service providers - original one and Lumen adapter
+// Finally register three service providers - original one and Lumen adapter
 $app->register(Laravel\Passport\PassportServiceProvider::class);
 $app->register(Dusterio\LumenPassport\PassportServiceProvider::class);
 $app->register(Gashey\LumenPassportResource\PassportServiceProvider::class);
