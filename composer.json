@@ -1,6 +1,10 @@
 {
     "name": "gashey/lumen-passport-resource",
+    "type": "library",
     "description": "A lumen passport package",
+    "keywords": ["php", "lumen", "laravel passport"],
+    "homepage": "https://github.com/dusterio/lumen-passport",
+    "license": "MIT",
     "authors": [{
         "name": "George Kofi Hagan",
         "email": "georgekhagan@gmail.com"
