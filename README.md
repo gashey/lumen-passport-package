@@ -27,7 +27,7 @@ Then install Lumen Passport (it will fetch Laravel Passport along):
 
 ```bash
 $ cd lumen-app
-$ composer require gashey/lumen-passport
+$ composer require gashey/lumen-passport-resource
 ```
 
 Or if you prefer, edit `composer.json` manually:
