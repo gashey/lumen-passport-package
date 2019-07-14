@@ -1,6 +1,6 @@
 <?php
 
-namespace Gashey\LumenPassport;
+namespace Gashey\LumenPassportResource;
 
 
 class TokenRepository extends \Laravel\Passport\TokenRepository
