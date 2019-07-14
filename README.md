@@ -28,7 +28,7 @@ Or if you prefer, edit `composer.json` manually:
 ```json
 {
     "require": {
-        "gashey/lumen-passport": "^0.2.0"
+        "gashey/lumen-passport-resource": "^0.1.3"
     }
 }
 ```
@@ -60,9 +60,6 @@ $app->register(Gashey\LumenPassport\PassportServiceProvider::class);
 ```bash
 # Create new tables for Gashey Passport 
 php artisan migrate
-
-# Install encryption keys and other necessary stuff for Passport
-php artisan passport:install
 ```
 
 ### Resource Server Public Key
