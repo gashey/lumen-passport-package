@@ -1,3 +1,10 @@
+[![Build Status](https://travis-ci.org/gashey/lumen-passport-resource.svg)](https://travis-ci.org/gashey/lumen-passport-resource)
+[![Code Climate](https://codeclimate.com/github/gashey/lumen-passport-resource/badges/gpa.svg)](https://codeclimate.com/github/gashey/lumen-passport-resourece/badges)
+[![Total Downloads](https://poser.pugx.org/gashey/lumen-passport-resource/d/total.svg)](https://packagist.org/packages/gashey/lumen-passport-resource)
+[![Latest Stable Version](https://poser.pugx.org/gashey/lumen-passport-resource/v/stable.svg)](https://packagist.org/packages/gashey/lumen-passport-resource)
+[![Latest Unstable Version](https://poser.pugx.org/gashey/lumen-passport-resource/v/unstable.svg)](https://packagist.org/packages/gashey/lumen-passport-resource)
+[![License](https://poser.pugx.org/gashey/lumen-passport-resource/license.svg)](https://packagist.org/packages/gashey/lumen-passport-resource)
+
 # Lumen-Passport as an oauth client grant Resource Server
 
 Making Laravel Passport work with Lumen as a Client Grant Resource Server. This makes it easy to protect routes and check scopes via Passport middleware. This package requires "dusterio/lumen-passport" created by Denis Mysenko.
