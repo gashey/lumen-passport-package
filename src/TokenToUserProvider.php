@@ -19,7 +19,8 @@ class TokenToUserProvider implements UserProvider
     }
     public function retrieveById($identifier)
     {
-        return $this->user->where('client_id', '=', $identifier)->first();
+        $this->user->id = $identifier;
+        return $this->user;
     }
     public function retrieveByToken($identifier, $token)
     {

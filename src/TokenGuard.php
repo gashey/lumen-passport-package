@@ -23,6 +23,7 @@ class TokenGuard extends \Laravel\Passport\Guards\TokenGuard
         $user = $this->provider->retrieveById(
             $psr->getAttribute('oauth_client_id') ?: null
         );
+        $user->name = $psr->getAttribute('oauth_name');
 
         if (!$user) {
             return;
