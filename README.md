@@ -30,16 +30,6 @@ $ cd lumen-app
 $ composer require gashey/lumen-passport-resource
 ```
 
-Or if you prefer, edit `composer.json` manually:
-
-```json
-{
-    "require": {
-        "gashey/lumen-passport-resource": "^0.1.5"
-    }
-}
-```
-
 ### Modify the bootstrap flow (```bootstrap/app.php``` file)
 
 We need to enable both Laravel Passport provider and Lumen-specific providers:
