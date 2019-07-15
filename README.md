@@ -35,7 +35,7 @@ Or if you prefer, edit `composer.json` manually:
 ```json
 {
     "require": {
-        "gashey/lumen-passport-resource": "^0.1.4"
+        "gashey/lumen-passport-resource": "^0.1.5"
     }
 }
 ```
