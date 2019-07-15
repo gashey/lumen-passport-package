@@ -40,9 +40,7 @@ class PassportServiceProvider extends ServiceProvider
      */
     protected function registerMigrations()
     {
-        if (Passport::$runsMigrations) {
-            return $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
-        }
+        return $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
     }
 
     /**
