@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/gashey/lumen-passport-resource.svg)](https://travis-ci.org/gashey/lumen-passport-resource)
-[![Code Climate](https://codeclimate.com/github/gashey/lumen-passport-resource/badges/gpa.svg)](https://codeclimate.com/github/gashey/lumen-passport-resourece/badges)
+[![Code Climate](https://codeclimate.com/github/gashey/lumen-passport-resource/badges/gpa.svg)](https://codeclimate.com/github/gashey/lumen-passport-resource/badges)
 [![Total Downloads](https://poser.pugx.org/gashey/lumen-passport-resource/d/total.svg)](https://packagist.org/packages/gashey/lumen-passport-resource)
 [![Latest Stable Version](https://poser.pugx.org/gashey/lumen-passport-resource/v/stable.svg)](https://packagist.org/packages/gashey/lumen-passport-resource)
 [![Latest Unstable Version](https://poser.pugx.org/gashey/lumen-passport-resource/v/unstable.svg)](https://packagist.org/packages/gashey/lumen-passport-resource)
